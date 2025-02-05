@@ -1,0 +1,20 @@
+name: felipeCarneiroMotors
+description: aplicativo de venda de veículos.
+publish_to: 'none' # Remove essa linha se você pretende publicar o pacote.
+version: 1.0.0+1
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/WhatsApp Video 2025-02-05 at 07.40.22.mp4
